@@ -19,6 +19,6 @@ osgi_jar_with_tests(
     api_title = "Fault Management Rest API",
     api_version = "/onos/v1/fm",
     test_deps = TEST_DEPS,
-    web_context = "/onos/dhcp",
+    web_context = "/onos/v1/fm",
     deps = COMPILE_DEPS,
 )
